@@ -1,6 +1,6 @@
 Twig Attribute Extension
 =======================
-Twig is desperately missing wrapper function to handle HTML Attributes. I borrowed great [Attribute](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Template%21Attribute.php/class/Attribute/9.2.x) class from Drupal. It collects, sanitizes, and renders HTML attributes in a nice way.
+Twig is desperately missing wrapper function to handle HTML Attributes. I borrowed great [Attribute](https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Template%21Attribute.php/class/Attribute/11.x) class from Drupal. It collects, sanitizes, and renders HTML attributes in a nice way.
 
 This package was created based on issue [#2664570 - Move Attribute classes under Drupal\Component](https://www.drupal.org/project/drupal/issues/2664570) which created groundwork for using this class outside Drupal world. Unfortunately I had to copy code out because issue is still open. I hope issue will be merged soon, so I can switch to official component split off from Drupal core with proper attribution. Expected component should be available at [https://github.com/drupal/core-attribute](https://github.com/drupal/core-attribute)
 
